@@ -1,0 +1,12 @@
+#section1 .items .item{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+
+}
+#section1 .items .item i{
+   align-self: center;
+   margin-right: 1.3rem;
+
+
+}

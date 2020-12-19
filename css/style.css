@@ -1,0 +1,253 @@
+@font-face{
+font-family: 'vazir';
+src: url('/font/Vazir.eot');
+ src: url('/font/Vazir.woff')format(woff),
+ url('/font/vazir.woff2')format(woff2),
+ url('/font/vazir.ttf')format(truetype);
+
+}
+/* Reast Html */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Default  */
+
+html,body{
+    font-family: 'vazir',Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bg-dark{
+    background: #333;
+    color: white;
+}
+.bg-light{
+    background: #f4f4f4;
+    color:#333;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.text-primary{
+    color: orange;
+}
+.text-center{
+    text-align: center;
+}
+
+.list{
+    margin: 0.50rem;
+    list-style: none;
+
+}
+
+.list li{ 
+    border-bottom: #444 dotted 1px;
+    padding: 0.5rem 0;
+
+}
+.m-3{  margin: 3rem;}
+.m-2{  margin: 2rem;}
+.m-1{  margin: 1.25rem;}
+
+.p-3{  padding: 3rem;}
+.p-2{  padding: 2rem;}
+.p-1{  padding: 1.25rem;}
+
+
+.py-3{  padding: 3rem 0;}
+.py-2{  padding: 2rem 0;}
+.py-1{  padding: 1.25rem 0;}
+
+
+/* Navbar */
+#navbar{
+    
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+#navbar a{
+    color: white;
+
+}
+#navbar ul{
+    
+    display: flex;
+    align-items: center; 
+     /* (align-content: ;)(align-items: ;)-----> mehvar y
+       (justify-content: ----> mehvar x;) */  
+    list-style: none;
+}
+
+#navbar ul li a{
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+   background: orange;
+   color: white;
+   border-radius: 5px;
+}
+
+/* Header */
+#showcase{
+    background: #333 url('../img/back.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+
+}
+
+.l-header{
+    font-size: 2rem;
+
+}
+.m-header{
+    font-size: 2rem;
+
+}
+
+.btn{
+    color: white;
+    display: inline-block;
+    background: orange;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    color: orange;
+    background: white;
+}
+
+
+.bold{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* section */
+
+#section1 .items{
+    display: flex;
+    padding: 1rem;
+    
+}
+#section1 .items .item{
+    float: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#section1 .items .item i{
+    background: orange;
+    padding: 1.25rem;
+    border-radius: 50%;
+}
+
+
+#section2{
+    display: flex;
+
+}
+#section2 div{
+    flex: 1;
+}
+
+#section2 .img{
+    background: url('../img/section2.jpg') no-repeat center center/cover;
+
+}
+
+#section2 .content{
+    text-align: left;
+}
+
+
+ #section3 .items{
+     display: flex;
+
+ }
+
+#section3 .items div{
+    flex: 1;
+}
+
+#section3 .items img{
+  
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 70%;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+
+}
+
+#contact .contact-form{
+    flex-basis: 600px ;
+    text-align: left;
+
+}
+
+#contact .contact-form label{
+    display: block;
+    margin: 1rem 0;
+
+}
+#contact .contact-form input , 
+#contact .contact-form textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#main-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#main-footer div i{
+ 
+ padding-right: 20px;
+}
+
+#main-footer div i:hover{
+    color: orange;
+}
+
+
+
+
+
+
